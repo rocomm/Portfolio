@@ -1,0 +1,428 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    font-style: normal;
+}
+
+html{
+    font-style: normal;
+}
+
+body {
+    background: #000;
+}
+
+.top {
+    padding: 30px;
+}
+
+.destaque  {
+    
+    font-family: 'Roboto', Arial;
+    font-size: 21px;
+    color: #fff;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 400;
+    width: auto;
+    background-color: #fff;
+    padding: 5px 5px;
+}
+
+.destaque:link, .destaque:hover, .destaque:visited , .destaque:active , .destaque:visited:hover {
+    
+    font-family: 'Roboto',Arial;
+    font-size: 21px;
+    color: #fff;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 400;
+    width: auto;
+    background-color: #fff;
+    padding: 5px 5px;
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 6vw;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 0.1vw;
+    line-height: 6vw;
+    margin-top: 20vh;
+    padding-bottom: 350px;
+    background: url(img/scroll.gif) no-repeat bottom left;
+    background-size: 50px;
+    background-position-y: 50vh;
+}
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 6vw;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 0.1vw;
+    line-height: 6vw;
+    margin: 20vh 0 12vh 0;
+}
+
+
+
+h3 , h3 a:link , h3 a:hover , h3 a:visited , h3 a:active{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2vw;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+    margin: 0 0 20px 0;
+}
+
+.projeto {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.first-text {
+    background: url(img/scroll.gif) no-repeat top left;
+    background-size: 50px;
+}
+
+
+
+ul li {
+    padding: 0px 0;
+    height: 200px;
+    float: left;
+    width: 250px;
+}
+
+.text {
+    font-family: 'Roboto', Arial;
+    font-size: 21px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+
+.col-lg-6 .text {
+    font-family: 'Roboto', Arial;
+    font-size: 21px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+strong {
+    font-family: 'Roboto', Arial;
+    font-size: 21px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    width: auto;
+}
+
+
+.margin-text {
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+.email , .email:link , .email:hover , .email:visited , .email:active {
+    font-family:  Roboto;
+    font-size: 21px;
+    color: #fff;
+    margin-top: 20vh;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-decoration: none;
+    clear: both;
+    width: 100%;
+}
+
+/* links */
+
+
+.links a {border: 0px; padding-left: 30px}
+
+.behance {
+    background: url(img/behance.svg) top left no-repeat;
+    text-indent: -10000;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+
+.instagram {
+    background: url(img/instagram.svg) top left no-repeat;
+    text-indent: -10000;
+    background-size: 60%;
+    background-position: center;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.facebook {
+    background: url(img/face.svg) top left no-repeat;
+    background-position: center;
+    background-size: 35%;
+    text-indent: -10000;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.linkedin {
+    background: url(img/in.svg) top left no-repeat;
+    text-indent: -10000;
+    background-position: center;
+    background-size: 60%;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.text-descricao {
+    font-family: 'Roboto', Arial;
+    font-size: 21px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1980px) {
+    .direita {
+    text-align: right;
+    }
+    
+}
+
+@media all and (orientation: portrait) {
+    /* Your CSS rules for your mobile phones here */
+    
+    .projeto {
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .ccinfra {
+        width: 200px;
+    }
+
+   .direita {
+        text-align: left;
+    }
+
+    .row {
+        padding: 10px;
+    }
+
+    h1 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 10vw;
+        font-weight: 200;
+        color: #fff;
+        letter-spacing: 0.1vw;
+        line-height: 10vw;
+        margin-top: 20vh;
+        margin-bottom: 0px;
+        padding-bottom: 100px;
+        background-image: none;
+    }
+    
+    h2 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 10vw;
+        font-weight: 200;
+        color: #fff;
+        letter-spacing: 0.1vw;
+        line-height: 10vw;
+        margin: 80px 0 0 0;
+    }
+    
+    .margin-text {
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    ul li {
+        padding: 0px 0;
+        float: left;
+        width: 150px;
+        height: auto;
+    }
+
+    ul li img {
+        padding: 30px 0;
+        max-width: 100px;
+    }
+
+    h3 , h3 a:link , h3 a:hover , h3 a:visited , h3 a:active{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 200;
+        color: #fff;
+        letter-spacing: 0.1vw;
+        line-height: 30px;
+        margin: 50px 0 20px 0;
+    }
+    
+    .text {
+        font-family: 'Roboto', Arial;
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 300;
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 40px
+    }
+
+    .col-lg-6 .text {
+        margin-top: 50px;
+    }
+
+    .destaque {
+    font-family: 'Roboto', Arial;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 400;
+    width: auto;
+    background-color: #fff;
+    padding: 5px 5px;
+}
+
+
+
+    
+    .destaque:link, .destaque:hover, .destaque:visited , .destaque:active , .destaque:visited:hover {
+        font-family:  Roboto;
+        font-size: 18px;
+        color: #000;
+        letter-spacing: 1px;
+        font-weight: 400;
+        width: auto;
+        background-color: #fff;
+        padding: 5px 5px;
+    }
+
+    .text-mobile {
+        display: none;
+    }
+
+
+    .nestle {
+        padding-top: 20px
+    }
+
+    .intel {
+        padding-top: 20px
+    }
+
+    .brastemp {
+        padding-top: 5px
+    }
+    .soma {
+        padding-top: 0px
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .ccinfra {
+        width: 200px;
+    }
+
+    h1 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 10vw;
+        font-weight: 200;
+        color: #fff;
+        letter-spacing: 0.1vw;
+        line-height: 10vw;
+        margin-top: 20vh;
+        margin-bottom: 0px;
+        padding-bottom: 100px;
+        background-image: none;
+
+    }
+
+    ul li {
+        padding: 0px 0;
+        float: left;
+        width: 350px;
+        height: auto;
+    }
+
+    ul li img {
+        padding: 30px 0;
+        max-width: 100px;
+    }
+
+    .direita {
+        text-align: left;
+    }
+
+    .text-mobile {
+        display: none;
+    }
+
+}
+
+
+
+.nestle {
+    padding-top: 20px
+}
+
+.intel {
+    padding-top: 0px
+}
+
+.brastemp {
+    padding-top: 15px
+}
+
+.soma {
+    padding-top: 15px
+}
+
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+
+    .text {
+        font-family: Arial;
+        font-size: 21px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 300;
+        width: 100%;
+        margin-bottom: 30px;
+        
+    }
+}
